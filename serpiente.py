@@ -145,7 +145,8 @@ def main():
             mostrar_game_over(puntuacion)
         
         pygame.display.flip()
-        reloj.tick(10)  # Controlar la velocidad del juego
+        reloj.tick(5)  # Controlar la velocidad del juego (más lento)
 
 if __name__ == "__main__":
     main()
+# hola mundo
